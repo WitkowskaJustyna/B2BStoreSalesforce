@@ -1,0 +1,52 @@
+<template>
+    <lightning-card title="Opinions about product " >
+        <template if:true={displayTable}>
+            
+                <template for:each={opinions} for:item="opp">
+                    <div class="opinionWrapper" key={opp.Id}>
+                        <div class="opinionField1">{opp.Opinion_about_product__c}</div>
+                        <div class="opinionField2">{opp.Opinion15__c}</div>
+                      </div>
+                
+                
+                </template>
+                </template>
+                <lightning-button variant="brand" label="Show More" title="Primary action" onclick={handleClick} class="slds-m-left_x-small">    
+                </lightning-button>
+
+                <template if:true={ifShowMoreClicked}>
+            
+                    <template for:each={opin} for:item="opp">
+                        <div class="opinionWrapper" key={opp.Id}>
+                            <div class="opinionField1">{opp.Opinion_about_product__c}</div>
+                            <div class="opinionField2">{opp.Opinion15__c}</div>
+                          </div>
+                    
+                    
+                    </template>
+                    </template>
+            
+            <!-- <lightning-button variant="destructive" key={opp.Id} label={opp.Number__c}
+                value={opp.Id} onclick={handleOpenRecordClick}>
+            </lightning-button>
+            <lightning-layout-item size="3">
+                <c-show-all-opinions opp-id={seasonId}></c-show-all-opinions>
+            </lightning-layout-item> -->
+        
+    </lightning-card>
+</template>
+<!-- ========================================================================= -->
+
+    <!-- <lightning-card title="Opinion about product " >
+        <template if:true={oppList}>
+            <lightning-datatable data={oppList} columns={columns} key-field="Id">
+            </lightning-datatable>
+            <lightning-button variant="destructive" key={recordId} label="Show more opinions"
+                    onclick={handleClick}>
+                </lightning-button>
+        </template>
+        <template if:true={error}>
+            {error}
+        </template>
+    </lightning-card>
+</template> -->

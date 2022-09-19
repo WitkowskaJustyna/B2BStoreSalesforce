@@ -1,0 +1,27 @@
+
+.opinionWrapper
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.opinionField1
+{
+    background-color: lightblue;
+    text-align: center;
+    padding: 15px;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    width:450px;
+}
+.opinionField2
+{
+    background-color: lightgray;
+    text-align: center;
+    padding: 15px;
+    border-right: 2px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
+    width:100px;
+    font-size:large;
+    
+}

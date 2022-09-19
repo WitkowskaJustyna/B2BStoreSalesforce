@@ -1,0 +1,73 @@
+.wrapper 
+{
+    width: 1000px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.productWrapper
+{
+    display:inline-block;
+    vertical-align:bottom;
+    
+}
+.productField1
+{
+    background-color: grey;
+    width: 200px;
+    
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-right: 2px solid #ffffff;
+    word-wrap: break-word;
+    
+   
+}
+.productField2
+{
+    background-color: lightgray;
+    width: 200px;
+    
+    text-align: center;
+    padding: 15px;
+    border-right: 2px solid #ffffff;
+    word-wrap: break-word;
+    
+   
+}
+.productField3
+{
+    background-color: grey;
+    width: 200px;
+    height: 65px;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-right: 2px solid #ffffff;
+    word-wrap: break-word;
+    
+   
+}
+.productField4
+{
+    background-color: lightgray;
+    width: 200px;
+    
+    text-align: center;
+    padding: 15px;
+    border-right: 2px solid #ffffff;
+    word-wrap: break-word;
+    
+   
+}
+
+.title
+{
+    width: 1000px;
+    text-align:center;
+    padding: 15px;
+    font-size:large;
+    
+}

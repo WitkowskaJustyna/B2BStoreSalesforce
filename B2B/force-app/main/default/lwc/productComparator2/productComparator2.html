@@ -1,0 +1,18 @@
+<template>
+          <div class="wrapper">
+            <div class="title">Products Comparator</div>
+              
+            
+              <template if:true={productList}>
+                  <template for:each={filtered} for:item="prod">
+                    <div class="productWrapper" key={prod.Id}>
+                        <div class="productField2"><img src={prod.Image}></div>
+                        <div class="productField1">{prod.Name}</div>
+                        <div class="productField2">{prod.SKU}</div>
+                        <div class="productField3">{prod.Descr}</div>
+                        <div class="productField2">{prod.Price}</div>
+                      </div>
+                  </template>
+              </template>
+          </div>
+</template>

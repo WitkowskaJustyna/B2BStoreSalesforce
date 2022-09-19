@@ -1,0 +1,9 @@
+<template>
+    <lightning-card >
+        <lightning-datatable if:true={opinions.data} hide-checkbox-column="true" 
+            key-field="id"
+            data={opinions.data}
+            columns={columns}>
+        </lightning-datatable>
+    </lightning-card>    
+</template>
